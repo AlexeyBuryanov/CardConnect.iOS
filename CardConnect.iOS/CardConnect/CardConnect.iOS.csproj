@@ -9,12 +9,12 @@
         <PackageId>CardConnect.iOS</PackageId>
         <PackageProjectUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</PackageProjectUrl>
         <RepositoryUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</RepositoryUrl>
-        <Description>Port for .NET 8.</Description>
+        <Description>Port for .NET 7.</Description>
         <Version>1.0.0</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Oleksii Burianov</Authors>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <PackageTags>net8-android;android;chips;nachos</PackageTags>
+        <PackageTags>net7-ios;ios;cardconnect</PackageTags>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
