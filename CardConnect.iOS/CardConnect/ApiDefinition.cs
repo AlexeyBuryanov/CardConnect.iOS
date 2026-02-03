@@ -740,12 +740,12 @@ namespace CardConnectBinding
     //[Static]
     partial interface Constants
     {
-        // extern double BoltMobileSDKVersionNumber;
-        [Field("BoltMobileSDKVersionNumber", "__Internal")]
+        // extern double CardConnectConsumerSDKVersionNumber;
+        [Field("CardConnectConsumerSDKVersionNumber", "__Internal")]
         double CardConnectConsumerSDKVersionNumber { get; }
 
-        // extern const unsigned char [] BoltMobileSDKVersionString;
-        [Field("BoltMobileSDKVersionString", "__Internal")]
+        // extern const unsigned char [] CardConnectConsumerSDKVersionString;
+        [Field("CardConnectConsumerSDKVersionString", "__Internal")]
         NSString CardConnectConsumerSDKVersionString { get; }
     }
 }
