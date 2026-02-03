@@ -11,8 +11,8 @@
         <PackageProjectUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</PackageProjectUrl>
         <RepositoryUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</RepositoryUrl>
         <Description>Port for .NET 10.</Description>
-        <Version>1.4.1</Version>
-        <PackageVersion>1.4.1</PackageVersion>
+        <Version>1.4.0</Version>
+        <PackageVersion>1.4.0</PackageVersion>
         <Authors>Oleksii Burianov</Authors>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageTags>net10-ios;ios;cardconnect</PackageTags>

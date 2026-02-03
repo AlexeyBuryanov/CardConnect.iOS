@@ -200,16 +200,16 @@ namespace CardConnectBinding
     [Static]
     partial interface Constants
     {
-        // extern NSString *const _Nonnull BMSAPIErrorDomain;
-        [Field("BMSAPIErrorDomain", "__Internal")]
+        // extern NSString *const _Nonnull CCCAPIErrorDomain;
+        [Field("CCCAPIErrorDomain", "__Internal")]
         NSString CCCAPIErrorDomain { get; }
 
-        // extern const NSInteger BMSAPIErrorCodeNoEndpoint;
-        [Field("BMSAPIErrorCodeNoEndpoint", "__Internal")]
+        // extern const NSInteger CCCAPIErrorCodeNoEndpoint;
+        [Field("CCCAPIErrorCodeNoEndpoint", "__Internal")]
         nint CCCAPIErrorCodeNoEndpoint { get; }
 
-        // extern const NSInteger BMSAPIErrorCodeInvalidCardData;
-        [Field("BMSAPIErrorCodeInvalidCardData", "__Internal")]
+        // extern const NSInteger CCCAPIErrorCodeInvalidCardData;
+        [Field("CCCAPIErrorCodeInvalidCardData", "__Internal")]
         nint CCCAPIErrorCodeInvalidCardData { get; }
     }
 
