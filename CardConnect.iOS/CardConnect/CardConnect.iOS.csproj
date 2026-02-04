@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net10.0-ios</TargetFramework>
-        <RuntimeIdentifiers>ios-arm64;iossimulator-x64</RuntimeIdentifiers>
         <ImplicitUsings>true</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -11,8 +10,8 @@
         <PackageProjectUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</PackageProjectUrl>
         <RepositoryUrl>https://github.com/AlexeyBuryanov/CardConnect.iOS</RepositoryUrl>
         <Description>Port for .NET 10.</Description>
-        <Version>1.4.2</Version>
-        <PackageVersion>1.4.2</PackageVersion>
+        <Version>1.4.3</Version>
+        <PackageVersion>1.4.3</PackageVersion>
         <Authors>Oleksii Burianov</Authors>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageTags>net10-ios;ios;cardconnect</PackageTags>
@@ -24,14 +23,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Include="..\..\LICENSE">
-        <Pack>True</Pack>
-        <PackagePath>\</PackagePath>
-      </None>
-      <None Include="..\..\README.md">
-        <Pack>True</Pack>
-        <PackagePath>\</PackagePath>
-      </None>
+        <None Include="..\..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
     </ItemGroup>
 
     <ItemGroup>
@@ -40,11 +39,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <NativeReference Include="..\BoltMobileSDK.xcframework">
+        <NativeReference Include="..\CardConnectConsumerSDK.framework">
             <Kind>Framework</Kind>
-            <SmartLink>True</SmartLink>
             <ForceLoad>True</ForceLoad>
-            <Frameworks>Foundation UIKit PassKit</Frameworks>
+            <LinkerFlags>-lxml2</LinkerFlags>
         </NativeReference>
     </ItemGroup>
 

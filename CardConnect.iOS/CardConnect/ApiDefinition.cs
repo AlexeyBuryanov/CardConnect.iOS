@@ -200,16 +200,16 @@ namespace CardConnectBinding
     [Static]
     partial interface Constants
     {
-        // extern NSString *const _Nonnull BMSAPIErrorDomain;
-        [Field("BMSAPIErrorDomain", "__Internal")]
+        // extern NSString *const _Nonnull CCCAPIErrorDomain;
+        [Field("CCCAPIErrorDomain", "__Internal")]
         NSString CCCAPIErrorDomain { get; }
 
-        // extern const NSInteger BMSAPIErrorCodeNoEndpoint;
-        [Field("BMSAPIErrorCodeNoEndpoint", "__Internal")]
+        // extern const NSInteger CCCAPIErrorCodeNoEndpoint;
+        [Field("CCCAPIErrorCodeNoEndpoint", "__Internal")]
         nint CCCAPIErrorCodeNoEndpoint { get; }
 
-        // extern const NSInteger BMSAPIErrorCodeInvalidCardData;
-        [Field("BMSAPIErrorCodeInvalidCardData", "__Internal")]
+        // extern const NSInteger CCCAPIErrorCodeInvalidCardData;
+        [Field("CCCAPIErrorCodeInvalidCardData", "__Internal")]
         nint CCCAPIErrorCodeInvalidCardData { get; }
     }
 
@@ -740,12 +740,12 @@ namespace CardConnectBinding
     //[Static]
     partial interface Constants
     {
-        // extern double BoltMobileSDKVersionNumber;
-        [Field("BoltMobileSDKVersionNumber", "__Internal")]
+        // extern double CardConnectConsumerSDKVersionNumber;
+        [Field("CardConnectConsumerSDKVersionNumber", "__Internal")]
         double CardConnectConsumerSDKVersionNumber { get; }
 
-        // extern const unsigned char [] BoltMobileSDKVersionString;
-        [Field("BoltMobileSDKVersionString", "__Internal")]
+        // extern const unsigned char [] CardConnectConsumerSDKVersionString;
+        [Field("CardConnectConsumerSDKVersionString", "__Internal")]
         NSString CardConnectConsumerSDKVersionString { get; }
     }
 }
